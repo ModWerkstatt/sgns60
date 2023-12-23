@@ -1330,7 +1330,7 @@ return {
 					},
 				},
 			},
-			groupFileName = "vehicle/waggon/sgns/Fake/sgns_menu_fake.mdl.mdl",
+			groupFileName = "vehicle/waggon/sgns/Fake/sgns_menu_fake.mdl",
 			loadSpeed = 5,
 			multipleUnitOnly = false,
 			reversible = false,

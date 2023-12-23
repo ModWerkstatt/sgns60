@@ -267,7 +267,7 @@ return {
 		},
 		description = {			
 			name = _("sgssy2_name_fake"),
-			description = _("sgssy2_desc"),
+			description = _("sgssy_desc"),
 		},
 		emission = {
 			idleEmission = -1,
@@ -1330,7 +1330,7 @@ return {
 					},
 				},
 			},
-			groupFileName = "vehicle/waggon/sgns/Fake/sgns_menu_fake.mdl.mdl",
+			groupFileName = "vehicle/waggon/sgns/Fake/sgns_menu_fake.mdl",
 			loadSpeed = 5,
 			multipleUnitOnly = false,
 			reversible = false,

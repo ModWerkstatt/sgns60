@@ -267,7 +267,7 @@ return {
 		},
 		description = {			
 			name = _("sgssy2_name_pic_Fake"),
-			description = _("sgssy2_desc"),
+			description = _("sgssy_desc"),
 		},
 		emission = {
 			idleEmission = -1,

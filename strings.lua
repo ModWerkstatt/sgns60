@@ -105,7 +105,7 @@ return {
 		["sgssy2_desc"] = "Sgss(-y) 703 sind Containertragwagen für den PIC(Parcel Intercity) Hochgeschwindigkeitsverkehr",
 
 		--- Ganzzug ---
-		["sgns_gts_name_gts"] = "Sgnss 60 GTS (2011)",
+		["sgns_gts_name_gts"] = "Sgnss 60 GTS (2011) GTS",
 		["sgssy_name_pic"] = "Sgss-y 703 Kombiwaggon PIC (1991)",
 		["sgssy2_name_pic"] = "Sgss 703 Kombiwaggon PIC (1998)",
 
