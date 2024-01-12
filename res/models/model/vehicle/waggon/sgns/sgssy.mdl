@@ -281,7 +281,7 @@ return {
 		railVehicle = {
 			configs = {
 				{
-					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh", },
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_scheibenbremse_lod0.msh", },
 					backForwardParts = { 10, 11, },
 				},
 				{

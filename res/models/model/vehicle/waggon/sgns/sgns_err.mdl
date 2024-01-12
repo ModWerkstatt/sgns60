@@ -31,8 +31,8 @@ return {
 						mesh = "vehicle/waggon/sgns/handbremse_lod0.msh",
 						name = "Halter",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},		
-					{	
+					},	
+					{
 						animations = { },
 						children = {
 							{
