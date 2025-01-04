@@ -266,7 +266,7 @@ return {
 			price = -1,
 		},
 		description = {			
-			name = _("sgssy2_name_pic_Fake"),
+			name = _("sgssy2_name_pic_fake"),
 			description = _("sgssy_desc"),
 		},
 		emission = {
