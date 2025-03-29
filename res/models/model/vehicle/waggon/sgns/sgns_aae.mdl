@@ -384,48 +384,6 @@ return {
 					randomId = 6,
 				},
 				{
-					models = { "vehicle/waggon/sgns/zapfen/zapfen_leer.mdl", },
-					group = 0,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					randomId = 0,
-				},
-				{
-					models = { "vehicle/waggon/sgns/zapfen/zapfen_20ft.mdl", },
-					group = 0,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					randomId = 1,
-				},	
-				{
-					models = { "vehicle/waggon/sgns/zapfen/zapfen_26ft.mdl", },
-					group = 0,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					randomId = 2,
-				},			
-				{
-					models = { "vehicle/waggon/sgns/zapfen/zapfen_26ft_20ft.mdl", },
-					group = 0,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					randomId = 3,
-				},		
-				{
-					models = { "vehicle/waggon/sgns/zapfen/zapfen_30ft.mdl", },
-					group = 0,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					randomId = 4,
-				},	
-				{
-					models = { "vehicle/waggon/sgns/zapfen/zapfen_40_20ft.mdl", },
-					group = 0,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					randomId = 5,
-				},	
-				{
-					models = { "vehicle/waggon/sgns/zapfen/zapfen_40ft.mdl", },
-					group = 0,
-					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					randomId = 6,
-				},
-				{
 					models = cargo_asset_set_container_provider.getContainer_20ft(),
 					group = 0,
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.1, 0, 1.155, 1, },
@@ -583,102 +541,564 @@ return {
 				{
 					{
 						{
-							capacity = 4,
+							capacity = 88,
 							customCargoModels = {
 								configurations = {
 									{
 										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+											{ 1, 8, 7 },
 											{ 1, 8, 7, 9 },
 										},
 									},
 									{
 										slotLevels = {
 											{ 0 },
-										},
-									},
-									{
-										slotLevels = {
+											{ 1 },
 											{ 1, 8 },
 										},
 									},
 									{
 										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 10 },
 											{ 2, 10, 11 },
 										},
 									},
 									{
 										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 12 },
 											{ 4, 12, 13 },
 										},
 									},
 									{
 										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 14 },
 											{ 5, 14, 9 },
 										},
 									},
 									{
 										slotLevels = {
+											{ 0 },
+											{ 6 },
 											{ 6, 15 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 1, 17, 16, 18 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 1, 17 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 2, 19, 20 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 4, 21, 22 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 5, 23, 18 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 6, 24 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 1, 26, 25, 27 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 1, 26 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 2, 28, 29 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 4, 30, 27 },
-										},
-									},
-									{
-										slotLevels = {
-											{ 6, 31 },
 										},
 									},
 								},
 							},
 							type = "GOODS",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+											{ 1, 8, 7 },
+											{ 1, 8, 7, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 10 },
+											{ 2, 10, 11 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 12 },
+											{ 4, 12, 13 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 14 },
+											{ 5, 14, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 15 },
+										},
+									},
+								},
+							},
+							type = "CONSTRUCTION_MATERIALS",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 26 },
+											{ 1, 26, 25 },
+											{ 1, 26, 25, 27 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 26 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 28 },
+											{ 2, 28, 29 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 30 },
+											{ 4, 30, 27 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 31 },
+										},
+									},
+								},
+							},
+							type = "FOOD",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+											{ 1, 8, 7 },
+											{ 1, 8, 7, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 10 },
+											{ 2, 10, 11 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 12 },
+											{ 4, 12, 13 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 14 },
+											{ 5, 14, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 15 },
+										},
+									},
+								},
+							},
+							type = "MACHINES",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+											{ 1, 8, 7 },
+											{ 1, 8, 7, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 10 },
+											{ 2, 10, 11 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 12 },
+											{ 4, 12, 13 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 14 },
+											{ 5, 14, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 15 },
+										},
+									},
+								},
+							},
+							type = "PLANKS",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+											{ 1, 8, 7 },
+											{ 1, 8, 7, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 10 },
+											{ 2, 10, 11 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 12 },
+											{ 4, 12, 13 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 14 },
+											{ 5, 14, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 15 },
+										},
+									},
+								},
+							},
+							type = "PLASTIC",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+											{ 1, 8, 7 },
+											{ 1, 8, 7, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 10 },
+											{ 2, 10, 11 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 12 },
+											{ 4, 12, 13 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 14 },
+											{ 5, 14, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 15 },
+										},
+									},
+								},
+							},
+							type = "STEEL",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+											{ 1, 8, 7 },
+											{ 1, 8, 7, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 8 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 10 },
+											{ 2, 10, 11 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 12 },
+											{ 4, 12, 13 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 14 },
+											{ 5, 14, 9 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 15 },
+										},
+									},
+								},
+							},
+							type = "TOOLS",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 17 },
+											{ 1, 17, 16 },
+											{ 1, 17, 16, 18 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 17 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 19 },
+											{ 2, 19, 20 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 21 },
+											{ 4, 21, 22 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 23 },
+											{ 5, 23, 18 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 24 },
+										},
+									},
+								},
+							},
+							type = "OIL",
+						},
+					},
+					{
+						{
+							capacity = 88,
+							customCargoModels = {
+								configurations = {
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 17 },
+											{ 1, 17, 16 },
+											{ 1, 17, 16, 18 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 1 },
+											{ 1, 17 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 2 },
+											{ 2, 19 },
+											{ 2, 19, 20 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 4 },
+											{ 4, 21 },
+											{ 4, 21, 22 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 5 },
+											{ 5, 23 },
+											{ 5, 23, 18 },
+										},
+									},
+									{
+										slotLevels = {
+											{ 0 },
+											{ 6 },
+											{ 6, 24 },
+										},
+									},
+								},
+							},
+							type = "FUEL",
 						},
 					},
 				},
