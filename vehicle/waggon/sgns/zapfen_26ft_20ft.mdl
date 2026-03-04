@@ -1,0 +1,79 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 9.14499568939208984375, 1.37364327907562255859375, 1.233090877532958984375, },
+			bbMin = { -9.145000457763671875, -1.37364327907562255859375, 0.983502864837646484375, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 3.0499999523162841796875, 1.21000003814697265625, 1.2999999523162841796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2999999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/sgns_hupac.mtl", },
+							mesh = "msh/zapfen_26_20ft_lod0.msh",
+							name = "Zapfen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/sgns_hupac.mtl", },
+							mesh = "msh/zapfen_leer_lod1.msh",
+							name = "zafpen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/sgns_hupac.mtl", },
+							mesh = "msh/zapfen_leer_lod2.msh",
+							name = "zafpen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1000,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1979,
+				yearTo = 0,
+			},
+			cost = { 
+				price = 500,
+			},
+			extent = { 
+				bbMax = { 9.14499568939208984375, 1.37364327907562255859375, 1.233090877532958984375, },
+				bbMin = { -9.145000457763671875, -1.37364327907562255859375, 0.983502864837646484375, },
+			},
+		},
+		version = 2,
+	}
+end

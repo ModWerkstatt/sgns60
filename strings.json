@@ -1,0 +1,76 @@
+{
+  "en": {
+	"menu_slps725": "DB Slps-u 725",
+		
+	"fake": "Fake - ",
+	
+	"fake_sgns60": "Activate fake versions?",
+	"tooltip_fake": "Should the fake versions of the Sgns(s) 60 be available in the game?",
+	
+	"sgns_aae" : "Sgns 60 AAE (1991)",
+	"sgns_db" : "Sgns 60 DB (1987)",
+	"sgns_db2" : "Sgns 60 DBAG (1996)",
+	"sgns_db3" : "Sgns 60 DBAG (2005)",
+	"sgns_ermewa" : "Sgnss 60 Ermewa (1999)",
+	"sgns_ermewa2" : "Sgnss 60 Ermewa (2016)",
+	"sgns_err" : "Sgnss 60 ERR (2006)",
+	"sgns_gatx" : "Sgns 60 GATX (2019)",
+	"sgns_gts" : "Sgnss 60 GTS (2011)",
+	"sgns_hupac" : "Sgnss 60 Hupac (1981)",
+	"sgns_hupac2" : "Sgnss 60 Hupac (2000)",
+	"sgns_hupac3" : "Sgnss 60 Hupac (2023)",
+	"sgns_kombiverkehr" : "Sgns 60 Kombiwaggon (1991)",
+	"sgns_mfd" : "Sgns 60 MFD (2020)",
+	"sgns_rca" : "Sgnss 60 RCA (2008)",
+	"sgns_rca2" : "Sgnss 60 RCA (1990)",
+	"sgns_sbb" : "Sgns 60 SBB (1995)",
+	"sgns_stb" : "Sgnss 60 StB (2005)",
+	"sgns_vtg" : "Sgnss 60 VTG (2000)",	
+	"sgns60_desc": "The Sgns 60 is a container wagon for intermodal transport with a length of 19.74 m. This wagon has a loading length of 60 ft and can therefore be loaded with containers according to the ISO standard as well as with the European 30 ft container.",
+		
+	"sgssy" : "Sgss-y 703 Kombiwaggon (1991)",
+	"sgssy2" : "Sgss 703 Kombiwaggon (1998)",
+	"sgssy2_desc" : "Sgss(-y) 703 are container wagons for PIC (Parcel Intercity) high-speed traffic",
+		
+	"sgns_gts_gts" : "Sgnss 60 GTS (2011) GTS",
+	"sgssy_pic" : "Sgss-y 703 Kombiwaggon (1991) PIC",
+	"sgssy2_pic" : "Sgss 703 Kombiwaggon (1998) PIC"
+  },
+  "de": {
+	"sgns_menu": "Sgns(s) 60 Containertragwagen",
+	
+	"fake": "Fake -",	
+	
+	"fake_sgns60": "Fake-Versionen aktivieren?",
+	"tooltip_fake": "Sollen die Fake-Versionen des Sgns(s) 60 verfügbar sein im Spiel?",
+	
+	"sgns_aae": "Sgns 60 AAE (1991)",
+	"sgns_db": "Sgns 60 DB (1987)",	
+	"sgns_db2" : "Sgns 60 DBAG (1996)",
+	"sgns_db3" : "Sgns 60 DBAG (2005)",
+	"sgns_ermewa" : "Sgnss 60 Ermewa (1999)",
+	"sgns_ermewa2" : "Sgnss 60 Ermewa (2016)",
+	"sgns_err" : "Sgnss 60 ERR (2006)",
+	"sgns_gatx" : "Sgns 60 GATX (2019)",
+	"sgns_gts" : "Sgnss 60 GTS (2011)",
+	"sgns_hupac" : "Sgnss 60 Hupac (1981)",
+	"sgns_hupac2" : "Sgnss 60 Hupac (2000)",
+	"sgns_hupac3" : "Sgnss 60 Hupac (2023)",
+	"sgns_kombiverkehr" : "Sgns 60 Kombiverkehr (1991)",
+	"sgns_mfd" : "Sgns 60 MFD (2020)",
+	"sgns_rca" : "Sgnss 60 RCA (2008)",
+	"sgns_rca2" : "Sgnss 60 RCA (1990)",
+	"sgns_sbb" : "Sgns 60 SBB (1995)",
+	"sgns_stb" : "Sgnss 60 StB (2005)",
+	"sgns_vtg" : "Sgnss 60 VTG (2000)",
+	"sgns60_desc": "Der Sgns 60 ist ein Containerwagen für den Intermodalen Verkehr mit einer Länge von 19,74 m. Dieser Wagen hat eine Ladelänge von 60 ft und kann dadurch mit Container nach der ISO Norm sowie mit den Europäischen 30 ft Container beladen werden.",
+	
+	"sgssy" :"Sgss-y 703 Kombiwaggon (1991)",
+	"sgssy2" : "Sgss 703 Kombiwaggon (1998)",
+	"sgssy2_desc" : "Sgss(-y) 703 sind Containertragwagen für den PIC(Parcel Intercity) Hochgeschwindigkeitsverkehr",
+
+	"sgns_gts_gts" : "Sgnss 60 GTS (2011) GTS",
+	"sgssy_pic" : "Sgss-y 703 Kombiwaggon PIC (1991)",
+	"sgssy2_pic" : "Sgss 703 Kombiwaggon PIC (1998)"	
+    }
+}
