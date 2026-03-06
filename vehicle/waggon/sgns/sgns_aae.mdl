@@ -568,7 +568,7 @@ return {
 					-- Kühlung ---
 					{ 
 						group = "body",
-						models = { "#CONT40FTHC", "#CONT45FTHC", "#CONT40FTHC", },
+						models = { "#CONT40FTHC", },
 						randomId = 7,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.155, 1, },
 					},
