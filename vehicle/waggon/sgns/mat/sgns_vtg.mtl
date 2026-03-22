@@ -108,13 +108,6 @@ return {
 					},
 				},
 			},
-			two_sided = { 
-				fragmentProperties = {
-					{ 
-						twoSided = true,
-					},
-				},
-			},
 		},
 		type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
 	}
