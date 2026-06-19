@@ -16,22 +16,16 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/sgns_gts.mtl", },
+							materials = { "mat/sgns_db2.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/sgns_gts.mtl", },
-							mesh = "msh/halter_neu_lod0.msh",
+							materials = { "mat/sgns_db2.mtl", },
+							mesh = "msh/halter_db_lod0.msh",
 							name = "halter",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/sgns_gts.mtl", },
-							mesh = "msh/handbremse_lod0.msh",
-							name = "halter",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
 							children = {
@@ -192,14 +186,14 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/sgns_gts.mtl", },
+							materials = { "mat/sgns_db2.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/sgns_gts.mtl", },
-							mesh = "msh/halter_neu_lod1.msh",
+							materials = { "mat/sgns_db2.mtl", },
+							mesh = "msh/halter_db_lod1.msh",
 							name = "halter",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -350,7 +344,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/sgns_gts.mtl", },
+							materials = { "mat/sgns_db2.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -414,7 +408,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/sgns_gts.mtl", },
+							materials = { "mat/sgns_db2.mtl", },
 							mesh = "msh/rumpf_lod3.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -423,13 +417,13 @@ return {
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 1500,
-				visibleTo = 2500,
+				visibleFrom = 500,
+				visibleTo = 1500,
 			},
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 2011,
+				yearFrom = 1996,
 				yearTo = 0,
 			},
 			cost = { 
@@ -437,7 +431,7 @@ return {
 			},
 			description = { 
 				description = _("sgns_desc"),
-				name = _("sgns_gts"),
+				name = _("sgns_db2"),
 			},
 			emissions = { 
 				noise = { 
@@ -455,7 +449,7 @@ return {
 				brakeDeceleration = 2.5,
 				engines = { },
 				friction = 0.0199999995529651641845703125,
-				topSpeed = 33.333332061767578125,
+				topSpeed = 27.7777996063232421875,
 				weightEmpty = 18700,
 				weightMaxPayload = 70000,
 			},
@@ -1230,10 +1224,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_sgns60.mdl",
 				loadSpeed = 5,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,

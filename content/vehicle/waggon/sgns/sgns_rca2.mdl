@@ -16,26 +16,14 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/sgns_hupac3.mtl", },
+							materials = { "mat/sgns_rca2.mtl", },
 							mesh = "msh/rumpf_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/sgns_hupac3.mtl", },
-							mesh = "msh/halter_alt_lod0.msh",
-							name = "halter",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/sgns_hupac3.mtl", },
-							mesh = "msh/handbremse_lod0.msh",
-							name = "halter",
-							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/sgns_hupac3.mtl", },
-							mesh = "msh/leiter_bogen_lod0.msh",
+							materials = { "mat/sgns_rca2.mtl", },
+							mesh = "msh/halter_sbb_lod0.msh",
 							name = "halter",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -198,14 +186,14 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/sgns_hupac3.mtl", },
+							materials = { "mat/sgns_rca2.mtl", },
 							mesh = "msh/rumpf_lod1.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
-							materials = { "mat/sgns_hupac3.mtl", },
-							mesh = "msh/halter_alt_lod1.msh",
+							materials = { "mat/sgns_rca2.mtl", },
+							mesh = "msh/halter_sbb_lod1.msh",
 							name = "halter",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -356,7 +344,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/sgns_hupac3.mtl", },
+							materials = { "mat/sgns_rca2.mtl", },
 							mesh = "msh/rumpf_lod2.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -420,7 +408,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/sgns_hupac3.mtl", },
+							materials = { "mat/sgns_rca2.mtl", },
 							mesh = "msh/rumpf_lod3.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -435,15 +423,15 @@ return {
 		},
 		metadata = { 
 			availability = { 
-				yearFrom = 2023,
-				yearTo = 0,
+				yearFrom = 1990,
+				yearTo = 2008,
 			},
 			cost = { 
 				price = -1,
 			},
 			description = { 
 				description = _("sgns_desc"),
-				name = _("sgns_hupac3"),
+				name = _("sgns_rca2"),
 			},
 			emissions = { 
 				noise = { 
@@ -1236,10 +1224,11 @@ return {
 						},
 					},
 				},
-				engineTags = { },
+				engineTransportModes = { },
 				groupFileName = "menu_sgns60.mdl",
 				loadSpeed = 5,
-				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
+				filterTags = { "default", },
 			},
 		},
 		version = 2,
