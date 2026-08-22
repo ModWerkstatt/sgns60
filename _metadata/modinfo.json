@@ -1,11 +1,11 @@
 {
     "name": "Sgns(s) 60 Container wagons",
-    "summary": "A .",
+    "summary": "A container car with a loading length of 60 feet that has been in production since 1980. The package includes 21 paint schemes.",
     "description": "The Sgns 60 is a container wagon for intermodal transport with a length of 19.74 m. This wagon has a loading length of 60 ft and can therefore be loaded with containers according to the ISO standard as well as with the European 30 ft container.",
     "localization" : {
         "de": {
             "name": "Sgns(s) 60 Containertragwagen",
-            "summary": "Ein ",
+            "summary": "Ein Containerwagen mit einer Ladelänge von 60ft der seit 1980 gebaut wird. Es sind 21 Lackierungen in dem Paket enthalten.",
             "description": "Der Sgns 60 ist ein Containerwagen für den Intermodalen Verkehr mit einer Länge von 19,74 m. Dieser Wagen hat eine Ladelänge von 60 ft und kann dadurch mit Container nach der ISO Norm sowie mit den Europäischen 30 ft Container beladen werden."
         }
     },
@@ -17,6 +17,11 @@
     ],
     "tags": [
         "Wagon"
+    ],
+	"dependencies": [
+		"5837578",
+		"5798276",
+		"5732944"
     ],
     "url": "https://modwerkstatt.com/downloads/tpf3/sgns60"
 }

@@ -1,14 +1,14 @@
 function data()
 return { 
 		boundingInfo = { 
-			bbMax = { 9.80000019073486328125, 1.56737005710601806640625, 4, },
-			bbMin = { -9.80000019073486328125, -1.56737005710601806640625, -0.0321700014173984527587890625, },
+			bbMax = { 9.77844, 1.49395, 2.22843, },
+			bbMin = { -9.77844, -1.49395, -0.0316, },
 		},
 		collider = { 
 			params = { 
-				halfExtents = { 9.80000019073486328125, 1.56737005710601806640625, 2.0160849094390869140625, },
+				halfExtents = { 9.8, 1.56737, 2.01608, },
 			},
-			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.98391497135162353515625, 1, },
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.98391, 1, },
 			type = "BOX",
 		},
 		lods = {
@@ -67,12 +67,6 @@ return {
 								},
 								{ 
 									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
-									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/hb_lod0.msh",
-									name = "handbremse",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-								{ 
-									materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/dg_ba_y25_lss.mtl", },
 									mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/wheel_920mm_lod0.msh",
 									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9, 0, 0.45, 1, },
@@ -107,7 +101,7 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, 0, -9.31, 0.545, 1.09, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.31, 0.545, 1.09, 1, },
 						},
 						{ 
 							animations = { 
@@ -129,7 +123,7 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss2",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, 0, -9.22, -1.16, 1.06, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.22, -1.16, 1.06, 1, },
 						},
 						{ 
 							animations = { 
@@ -265,7 +259,7 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, 0, -9.31, 0.545, 1.09, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.31, 0.545, 1.09, 1, },
 						},
 						{ 
 							animations = { 
@@ -287,7 +281,7 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
 							name = "zugschluss2",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, 0, -9.22, -1.16, 1.06, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.22, -1.16, 1.06, 1, },
 						},
 						{ 
 							animations = { 
@@ -445,11 +439,16 @@ return {
 					speed = -1,
 				},
 			},
+			extent = { 
+				bbMax = { 9.77844, 1.49395, 2.22843, },
+				bbMin = { -9.77844, -1.49395, -0.0316, },
+			},
 			landVehicle = { 
-				brakeDeceleration = 2.5,
+				brakeDeceleration = 0.8,
+				curveSpeedScale = 1,
 				engines = { },
-				friction = 0.0199999995529651641845703125,
-				topSpeed = 27.7777996063232421875,
+				friction = 0.02,
+				topSpeed = 27.7778,
 				weightEmpty = 18700,
 				weightMaxPayload = 70000,
 			},
@@ -462,18 +461,7 @@ return {
 									{ 0, },
 									{ 1, },
 									{ 1, 7, },
-								},
-								{
-									{ 0, },
-									{ 1, },
-									{ 1, 11, },
-								},
-								{
-									{ 0, },
-									{ 2, },
-									{ 2, 8, },
-									{ 2, 8, 9, },
-									{ 2, 8, 9, 10, },
+									{ 1, 7, },
 								},
 								{
 									{ 0, },
@@ -485,9 +473,8 @@ return {
 								{
 									{ 0, },
 									{ 2, },
-									{ 2, 10, },
-									{ 2, 10, 9, },
-									{ 2, 10, 9, 8, },
+									{ 2, 9, },
+									{ 2, 9, },
 								},
 								{
 									{ 0, },
@@ -497,26 +484,180 @@ return {
 								},
 								{
 									{ 0, },
-									{ 2, },
-									{ 2, 10, },
-									{ 2, 10, 8, },
+									{ 3, },
+									{ 3, 11, },
+									{ 3, 11, 8, },
+								},
+								{
+									{ 0, },
+									{ 4, },
+									{ 4, 12, },
+									{ 4, 12, 13, },
+								},
+								{
+									{ 0, },
+									{ 5, },
+									{ 5, 14, },
+									{ 5, 14, 15, },
+								},
+								{
+									{ 0, },
+									{ 6, },
+									{ 6, 10, },
+									{ 6, 10, 15, },
+								},
+							},
+						},
+					},
+					slots_1 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 7, },
+									{ 1, 7, },
 								},
 								{
 									{ 0, },
 									{ 2, },
 									{ 2, 9, },
+									{ 2, 9, 8, },
+									{ 2, 9, 8, 10, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 9, },
+									{ 2, 9, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 8, },
+									{ 2, 8, 10, },
 								},
 								{
 									{ 0, },
 									{ 3, },
-									{ 3, 12, },
-									{ 3, 12, 10, },
+									{ 3, 11, },
+									{ 3, 11, 8, },
+								},
+								{
+									{ 0, },
+									{ 5, },
+									{ 5, 14, },
+									{ 5, 14, 15, },
+								},
+								{
+									{ 0, },
+									{ 6, },
+									{ 6, 10, },
+									{ 6, 10, 15, },
+								},
+							},
+						},
+					},
+					slots_2 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 7, },
+									{ 1, 7, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 9, },
+									{ 2, 9, 8, },
+									{ 2, 9, 8, 10, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 9, },
+									{ 2, 9, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 8, },
+									{ 2, 8, 10, },
 								},
 								{
 									{ 0, },
 									{ 3, },
-									{ 3, 8, },
-									{ 3, 8, 13, },
+									{ 3, 11, },
+									{ 3, 11, 8, },
+								},
+								{
+									{ 0, },
+									{ 4, },
+									{ 4, 12, },
+									{ 4, 12, 13, },
+								},
+								{
+									{ 0, },
+									{ 5, },
+									{ 5, 14, },
+									{ 5, 14, 15, },
+								},
+								{
+									{ 0, },
+									{ 6, },
+									{ 6, 10, },
+									{ 6, 10, 15, },
+								},
+							},
+						},
+					},
+					slots_3 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 7, },
+									{ 1, 7, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 9, },
+									{ 2, 9, 8, },
+									{ 2, 9, 8, 10, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 9, },
+									{ 2, 9, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 8, },
+									{ 2, 8, 10, },
+								},
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 11, },
+									{ 3, 11, 8, },
+								},
+								{
+									{ 0, },
+									{ 5, },
+									{ 5, 14, },
+									{ 5, 14, 15, },
+								},
+								{
+									{ 0, },
+									{ 6, },
+									{ 6, 10, },
+									{ 6, 10, 15, },
 								},
 							},
 						},
@@ -565,48 +706,59 @@ return {
 						randomId = 6,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
-					-- Kühlung ---
 					{ 
 						group = "body",
-						models = { "#CONT40FTHC", },
+						models = { "#CONT40FT", "#CONT40FTHC", "#CONT45FTHC", },
 						randomId = 7,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.155, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.15, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT20FT", },
+						models = { "#CONT20FT", "#CONT20FTHC", },
 						randomId = 8,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.12, 0, 1.155, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.11, 0, 1.15, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT20FT", },
+						models = { "#CONT20FT", "#CONT20FTHC", },
 						randomId = 9,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.155, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.15, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT20FT", },
+						models = { "#CONT20FT", "#CONT20FTHC", },
 						randomId = 10,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.12, 0, 1.155, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.11, 0, 1.15, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT45FTHC", },
+						models = { "#CONT40FT", "#CONT40FTHC", },
 						randomId = 11,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.155, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.06, 0, 1.15, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT40FTHC", },
+						models = { "#CONT30FT", },
 						randomId = 12,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.06, 0, 1.155, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.57, 0, 1.15, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT40FTHC", },
+						models = { "#CONT30FT", },
 						randomId = 13,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.06, 0, 1.155, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.57, 0, 1.15, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT20FTHC", "#CONT26FT", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 14,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.53, 0, 1.15, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT20FTHC", "#CONT26FT", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 15,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.53, 0, 1.15, 1, },
 					},
 				},
 			},
@@ -638,14 +790,56 @@ return {
 						loadConfigs = {
 							{ 
 								cargoEntry = { 
-									capacity = 88,
+									capacity = 56,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { "GOODS", "LIQUID", "FLATBED", },
-										cargoTypesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
 										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 56,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fabric/fabric.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/glass/glass.cargo", "::/cargos/paper/paper.cargo", "::/cargos/plastic/plastic.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/tires/tires.cargo", "::/cargos/tools/tools.cargo", "::/cargos/wool/wool.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 56,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID", },
+										cargoTypesExcluded = { "::/cargos/crude_oil/crude_oil.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_2",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 56,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_3",
 									seats = { },
 								},
 								toHide = { },
@@ -654,10 +848,11 @@ return {
 					},
 				},
 				engineTransportModes = { },
+				entrances = { },
+				filterTags = { "default", },
 				groupFileName = "menu_sgns60.mdl",
 				loadSpeed = 5,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
-				filterTags = { "default", },
 			},
 		},
 		version = 2,
