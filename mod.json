@@ -42,9 +42,32 @@
     ],
     "incompatibilities": null,
     "modId": "mw_sgns60",
-    "params": null,
+    "params":[
+        {
+            "key": "sgns60_ganzzug",
+            "name": "ganzzug_sgns60",
+            "tooltip": "tooltip_ganzzug",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        },
+		{
+            "key": "sgns60_fake",
+            "name": "fake_sgns60",
+            "tooltip": "tooltip_fake",
+            "uiType": "ComboBox",
+            "values": [
+                "No",
+                "Yes"
+            ],
+            "defaultIndex": 0
+        }
+    ],
     "postRunScript": {
-        "fileName": ""
+        "fileName": "mw_sgns60::mod.script@postRunFn"
     },
     "preRunScript": {
         "fileName": ""
